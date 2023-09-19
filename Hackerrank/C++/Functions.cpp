@@ -2,6 +2,7 @@
 #include <cstdio>
 using namespace std;
 
+//better approach according memory and execution time
 int max_of_four(int a, int b, int c, int d){
     if(a>b&&a>c&&a>d){
         return a;
@@ -17,6 +18,7 @@ int max_of_four(int a, int b, int c, int d){
     }
 }
 
+//better approach according to code readability, scalability, and maintainability
 int max_of_four(int a, int b, int c, int d){
     int max1,max2,max;
     if(a>b){
