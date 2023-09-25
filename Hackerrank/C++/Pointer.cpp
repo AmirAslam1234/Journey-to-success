@@ -10,14 +10,12 @@ void update(int *a,int *b) {
 }
 
 int main() {
-    int a=5, b=10;
+    int a, b;
+    cin>>a;
+    cin>>b;
     int *pa = &a, *pb = &b;
-    cout<<a<<endl;
-    cout<<b<<endl;
     update(pa,pb);
     cout<<a<<endl;
     cout<<b<<endl;
-    
-
     return 0;
 }
