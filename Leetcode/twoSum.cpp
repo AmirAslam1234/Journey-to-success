@@ -9,7 +9,6 @@ public:
         {
             for (int j = i+1; j < nums.size(); j++)
             {
-                cout<<"a";
                 if((nums[i]+nums[j])==target){
                     sums.push_back(i);
                     sums.push_back(j);
@@ -25,7 +24,6 @@ int main(){
     vector<int>nums = {2,11,7,15};
     Solution obj;
     vector<int>sums=obj.twoSum(nums,9);
-    cout<<sums[0];
-    cout<<sums[1];
+
     return 0;
 }
