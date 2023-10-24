@@ -8,9 +8,6 @@ public:
         std::unique(nums.begin(),nums.end());
         int k = 0;
         int i = 0;
-        for(int j =0;j<nums.size();j++){
-            cout<<nums[j];
-        }
         while(true){
             if(nums[i]!=nums[i+1]||(i+1)==(nums.size()-1)){
                 k++;
@@ -19,7 +16,6 @@ public:
                 break;
 
             }
-            
             i++;
         }
        
